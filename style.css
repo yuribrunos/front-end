@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    padding: 0; 
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%; /*Serve para fazer o rem virar um pixel (divido por 10.*/
+}
+
+body {
+    background-color: white;
+    height: 100vh; /*Serve para o body ocupar a tela inteira*/
+    width: 100%;
+    box-sizing: border-box; /*Serve pra tag filho não escapar da tag pai*/
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    /*column serve para para deixar a forma na vertical, em colunas 
+    Dysplay: flex; ativa o flexbox 
+    align-itens: center; serve 
+    justify-content: center; serve para centralizar o documento no espaço principal 
+    flex-wrap:wrap; serve para o texto quebrar quando chegar no final da pagina
+    */
+} 
+
+.conteudo__container {
+    display: flex; 
+    gap: 2rem;
+    width: 60rem; 
+    flex-direction: column;
+}
+
+.titulo__container {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3.2rem; /*32 pixels */ 
+    color: #001f54; 
+    text-shadow: 1px 1px 1px #6096ba;
+}
+
+.paragrafo__container {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    color:#6096ba;
+    font-size: 2.0rem;
+} 
+
+strong {
+    background-color: #001f54;
+} 
+
+.botoes__container {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;  
+    width: 500px;
+    justify-content: space-between;
+    text-decoration: underline; 
+
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic; 
+    font-size: 2.7rem; 
+}   
+
+ .links__container{
+    display: flex;
+    margin-right: 20px;
+    width: 47rem;
+    height: 5rem;
+    align-items: center; 
+    justify-content: center;
+    text-shadow: 1px 1px 1px #6096ba;
+    color: #001f54; 
+    border: 10px inset #001f54;
+    text-align: center; 
+}  
+
+.figure__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
