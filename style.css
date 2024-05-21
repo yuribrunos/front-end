@@ -27,6 +27,7 @@ body {
     Dysplay: flex; ativa o flexbox 
     align-itens: center; serve 
     justify-content: center; serve para centralizar o documento no espaço principal 
+    flex-wrap:wrap; serve para o texto quebrar quando chegar no final da página.
     flex-wrap:wrap; serve para o texto quebrar quando chegar no final da pagina
     */
 } 
