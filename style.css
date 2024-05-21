@@ -18,11 +18,11 @@ body {
 
 .container {
     margin: 10% 15%;
-    width: 120rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    flex-direction: row;
     /*column serve para para deixar a forma na vertical, em colunas 
     Dysplay: flex; ativa o flexbox 
     align-itens: center; serve 
@@ -95,4 +95,5 @@ strong {
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 3rem; 
 }
