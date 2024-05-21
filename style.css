@@ -12,17 +12,17 @@ html {
 body {
     background-color: white;
     height: 100vh; /*Serve para o body ocupar a tela inteira*/
-    width: 100%;
+    width: 100vh;
     box-sizing: border-box; /*Serve pra tag filho não escapar da tag pai*/
 }
 
 .container {
+    margin: 10% 15%;
     display: flex;
-    justify-content: center; 
-    flex-direction: column; 
     align-items: center;
+    justify-content: space-between;
     gap: 2rem;
-    flex-wrap: wrap;
+    flex-direction: row;
     /*column serve para para deixar a forma na vertical, em colunas 
     Dysplay: flex; ativa o flexbox 
     align-itens: center; serve 
@@ -36,6 +36,8 @@ body {
     gap: 2rem;
     width: 60rem; 
     flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
 }
 
 .titulo__container {
@@ -92,6 +94,6 @@ strong {
 .figure__container {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    flex-direction: column;
 
 }
