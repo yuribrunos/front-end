@@ -23,6 +23,7 @@ body {
     justify-content: space-between;
     gap: 2rem;
     flex-direction: row;
+    width: 100vh
     /*column serve para para deixar a forma na vertical, em colunas 
     Dysplay: flex; ativa o flexbox 
     align-itens: center; serve 
@@ -35,9 +36,9 @@ body {
 .conteudo__container {
     display: flex; 
     gap: 2rem;
-    width: 60rem; 
+    width: 120rem; 
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: center; 
     align-items: center;
 }
 
