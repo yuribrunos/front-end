@@ -21,15 +21,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
-    flex-direction: row;
-    width: 100vh
+    gap: 2rem; 
     /*column serve para para deixar a forma na vertical, em colunas 
     Dysplay: flex; ativa o flexbox 
     align-itens: center; serve 
     justify-content: center; serve para centralizar o documento no espaço principal 
     flex-wrap:wrap; serve para o texto quebrar quando chegar no final da página.
-    flex-wrap:wrap; serve para o texto quebrar quando chegar no final da pagina
     */
 } 
 
