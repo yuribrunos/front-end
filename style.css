@@ -36,10 +36,8 @@ body {
 .conteudo__container {
     display: flex; 
     gap: 2rem;
-    width: 120rem; 
+    width: 61.5rem; 
     flex-direction: column;
-    justify-content: center; 
-    align-items: center;
 }
 
 .titulo__container {
